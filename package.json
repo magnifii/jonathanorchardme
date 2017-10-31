@@ -1,0 +1,33 @@
+{
+  "name": "jonathan-orchard-blog",
+  "description": "My website development blog journal",
+  "version": "1.0.0",
+  "author": "Jonathan Orchard <jonathan@magnifii.co>",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "gatsby": "^1.9.73",
+    "gatsby-image": "^1.0.16",
+    "gatsby-link": "^1.6.22",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-source-wordpress": "^2.0.32",
+    "lodash": "^4.17.4",
+    "path": "^0.12.7",
+    "react-icons": "^2.2.7",
+    "slash": "^1.0.0",
+    "styled-components": "^2.2.3"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.7.4"
+  }
+}
