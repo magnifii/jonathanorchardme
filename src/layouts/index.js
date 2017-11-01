@@ -3,21 +3,13 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-import './index.css'
+import '../utils/styling/main.scss'
 import { colors } from '../utils/theme'
 
 import Header from '../components/Header/Header'
 
 const TemplateWrapper = ({ children }) => (
-  <div
-    style={{
-      paddingLeft: 20,
-      paddingRight: 20,
-      paddingTop: 20,
-      marginLeft: 'auto',
-      marginRight: 'auto',
-      background: colors.white,
-    }}
+  <div className="main"
     >
     <Helmet
       title="Jonathan Orchard"

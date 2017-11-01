@@ -1,0 +1,33 @@
+.label {
+  display: inline;
+  padding: .2em .4em;
+  color: #fff;
+  text-align: center;
+  border-radius: .25rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.label-default {
+  background: $lightgray;
+}
+
+.label-green {
+  background: $green;
+  color: white;
+}
+
+.label-blue {
+  background: $blue;
+  color: white;
+}
+
+
+
+hr {
+  border: 0;
+  border-top: 0.1rem solid #f4f5f6;
+  margin: 3.0rem 0;
+}
